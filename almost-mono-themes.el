@@ -175,6 +175,14 @@
       ;; org mode
       (org-table (:foreground ,weak))
 
+      ;; speedbar
+      (speedbar-button-face (:foreground ,weakest))
+      (speedbar-directory-face (: ,foreground))
+      (speedbar-file-face (:foreground ,foreground))
+      (speedbar-highlight-face (:foreground ,highlight))
+      (speedbar-selected-face (:background ,weak :foreground ,foreground))
+      (speedbar-separator-face (:foreground ,foreground))
+      (speedbar-tag-face (:foreground ,weak))
       ))))
 
 
